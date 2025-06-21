@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Carte cadeau Roblox gratuite</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 60px 20px;
+      background: #f1f3f6;
+    }
+
+    h1 {
+      color: #cc0000;
+      font-size: 32px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+
+    #lockerButton {
+      padding: 18px 40px;
+      font-size: 20px;
+      background-color: #ff4c4c;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    #lockerButton:hover {
+      background-color: #cc0000;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://i.imgur.com/MR8xJJP.png" alt="Carte cadeau Roblox" />
+  <h1>Obtiens ta carte cadeau Roblox gratuite !</h1>
+  <p>Complète une courte offre pour débloquer ton code cadeau Roblox.</p>
+
+  <button id="lockerButton">Débloquer mon code Roblox</button>
+
+  <!-- Script OGAds content locker -->
+  <script src="https://cdn.ogads.com/locker.js"></script>
+  <script>
+    var locker = new Locker({
+      offerId: "TON_OFFER_ID_ICI", // ⬅️ Remplace ceci avec ton vrai locker ID OGAds
+      buttonId: "lockerButton",
+      onComplete: function() {
+        alert("Merci ! Voici ton code : ROBLOX-GIFT-2025");
+      }
+    });
+  </script>
+</body>
+</html>
