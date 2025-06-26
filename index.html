@@ -1,10 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Débloque ton contenu</title>
+  <title>Obtiens ta carte cadeau gratuite</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 60px 20px;
+      background-color: #f2f2f2;
+    }
+
+    h1 {
+      font-size: 30px;
+      color: #222;
+    }
+
+    p {
+      font-size: 18px;
+      color: #555;
+      max-width: 600px;
+      margin: 20px auto;
+    }
+
+    img {
+      width: 300px;
+      max-width: 90%;
+      margin: 30px auto;
+      display: block;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 30px;
+      font-size: 18px;
+      background-color: #28a745;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    a.button:hover {
+      background-color: #218838;
+    }
+  </style>
   <script>
-    // Alerte si la personne n'est pas sur un appareil mobile
     if (!/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
       alert("📱 Veuillez ouvrir cette page sur un téléphone pour voir les offres disponibles.");
     }
@@ -12,11 +56,16 @@
 </head>
 <body>
 
-  <!-- Script de locker (MyLead, BestLocker, etc.) -->
-  <script type="text/javascript"
-          id="cpljs-1bd4f384-5244-11f0-b22e-8a5fb7be40ea"
-          src="https://bestlocker.eu/iframeLoader/1bd4f384-5244-11f0-b22e-8a5fb7be40ea">
-  </script>
+  <img src="https://i.ibb.co/NK3mvMC/giftcard.png" alt="Carte cadeau" />
+
+  <h1>🎁 Obtiens ta carte cadeau gratuite !</h1>
+  <p>Débloque un code cadeau en installant une application mobile gratuite. Aucun paiement requis.</p>
+  <p>Offres disponibles pour iOS et Android. Cette page fonctionne uniquement sur téléphone.</p>
+
+  <a href="https://bestlocker.eu/iframeLoader/1bd4f384-5244-11f0-b22e-8a5fb7be40ea" 
+     target="_blank" rel="noopener noreferrer" class="button">
+    🔓 Je veux ma carte cadeau
+  </a>
 
 </body>
 </html>
